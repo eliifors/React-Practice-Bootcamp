@@ -1,0 +1,45 @@
+.main-window {
+  max-width: 400px;
+  width: 90%;
+  margin-top: 40px;
+  padding: 24px;
+  border-radius: 20px;
+
+  /* Cam efekti */
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  /* Gölge ve kenarlık */
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+  color: white;
+  text-align: center;
+}
+
+.main-window h1 {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+.main-window h3 {
+  margin: 4px 0;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.weather-description {
+  margin-top: 20px;
+}
+
+.weather-description img {
+  width: 80px;
+  height: 80px;
+}
+
+.weather-description p {
+  margin: 6px 0;
+  font-size: 16px;
+  font-weight: 500;
+}
